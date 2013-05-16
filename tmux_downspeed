@@ -1,0 +1,9 @@
+#!/bin/bash
+
+RXB=$(</sys/class/net/eth0/statistics/rx_bytes)
+sleep 1
+RXBN=$(</sys/class/net/eth0/statistics/rx_bytes)
+RXDIF=$(echo $((RXBN - RXB)) )
+
+echo -e "$((RXDIF / 1024))"
+
