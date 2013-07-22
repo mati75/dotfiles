@@ -1,7 +1,7 @@
 XTerm*termName:  xterm-256color
 xterm*geometry:           80x25
 xterm*faceName:           xft:terminus:pixelsize=7:antialias=false
-!xterm*font:              -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+!!xterm*font:              -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
 !xterm*font: -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-*
 xterm*dynamicColors:      true
 xterm*utf8:               2
@@ -16,6 +16,7 @@ xterm*multiScroll:        true
 xterm*toolBar:            false
 #*background: #262626
 #*foreground: #A8A8A8
+XTerm*metaSendsEscape: true
 
 urxvt*termName:            xterm-256color
 urxvt*scrollBar:        false
@@ -52,35 +53,60 @@ URxvt.urlLauncher: vimperator2
 *.colorUL:    #A0A0A0
 *.colorIT:    #686868
 
-! Black
-*color0:   #111111
-*color8:   #666666
+!black
+URxvt*color0:                                   #303030
+URxvt*color8:                                   #474747
+!red
+URxvt*color1:                                   #BF1E2D
+URxvt*color9:                                   #E7212A
+!green
+URxvt*color2:                                   #D7D7D7
+URxvt*color10:                                  #E6E6E6
+!yellow
+URxvt*color3:                                   #666666
+URxvt*color11:                                  #808080
+!blue
+URxvt*color4:                                   #FFFFFF
+URxvt*color12:                                  #ebebeb
+!magenta
+URxvt*color5:                                   #C3143B
+URxvt*color13:                                  #E82752
+!cyan
+URxvt*color6:                                   #D4D4D4
+URxvt*color14:                                  #EDEDED
+!white
+URxvt*color7:                                   #ebebeb
+URxvt*color15:                                  #cccccc
 
-! Red
-*color1:   rgb:d3/62/65
-*color9:   rgb:ef/81/71
 
-! Green
-*color2:   #aece91
-*color10:  #cfefb3
+!------------------------------------------------------------------------------
+! General Colors
 
-! Yellow
-*color3:   rgb:e7/e1/8c
-*color11:  rgb:ff/f7/96
+*foreground:                               #ebebeb
+*background:                               #151515
 
-! Blue
-*color4:   #5297cf
-*color12:  #74b8ef
-
-! Magenta
-*color5:   #963c59
-*color13:  #b85e7b
-
-! Cyan
-*color6:   #5E7175
-*color14:  #A3BABF
-
-! White
-*color7:   #bebebe
-*color15:  #ffffff
+!black
+*color0:                                   #303030
+*color8:                                   #474747
+!red
+*color1:                                   #BF1E2D
+*color9:                                   #E7212A
+!green
+*color2:                                   #D7D7D7
+*color10:                                  #E6E6E6
+!yellow
+*color3:                                   #666666
+*color11:                                  #808080
+!blue
+*color4:                                   #FFFFFF
+*color12:                                  #ebebeb
+!magenta
+*color5:                                   #C3143B
+*color13:                                  #E82752
+!cyan
+*color6:                                   #D4D4D4
+*color14:                                  #EDEDED
+!white
+*color7:                                   #ebebeb
+*color15:                                  #cccccc
 
