@@ -1,0 +1,31 @@
+# application menu
+command "    Run" gmrun
+#command "------------" " "
+command "File Manager" "urxvt -e mc"
+command "Web Browser" "vimprobable2 google.com"
+command Terminal "urxvt -g 80x24+0+0"
+#command "------------" " "
+command "    Exit" "killall -9 xinit"
+
+
+#borderwidth 1
+#color activeborder blue
+#color inactiveborder darkblue
+#gap 0 0 0 180
+
+fontname "terminus:pixelsize=10:regular"
+#color inactiveborder "#0f0f0f"
+#color groupborder "#8eae71"
+#color activeborder "#121212"
+#color ungroupborder "#7e62b3"
+color menubg "#151515"
+color menufg "#595959"
+color font "#8f8f8f"
+#color menufont "#8f8f8f"
+#color menufontsel "#151515"
+
+bind CM-r reload
+mousebind M-1   window_move
+mousebind CM-1  window_resize
+
+sticky yes

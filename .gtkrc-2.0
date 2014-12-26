@@ -1,8 +1,8 @@
 # DO NOT EDIT! This file will be overwritten by LXAppearance.
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
-gtk-theme-name="seablocks_gtk"
-gtk-icon-theme-name="Faenza-Darkest"
+gtk-theme-name="night_butterfly2"
+gtk-icon-theme-name="clarity-icon-theme_0.4.0"
 gtk-font-name="Dingbats 9"
 gtk-cursor-theme-name="DMZ-Black"
 gtk-cursor-theme-size=16

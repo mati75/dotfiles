@@ -1,6 +1,6 @@
 XTerm*termName:  xterm-256color
 xterm*geometry:           80x25
-xterm*faceName:           xft:terminus:pixelsize=7:antialias=false
+!!xterm*faceName:           xft:terminus:pixelsize=7:antialias=false
 !!xterm*font:              -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
 !xterm*font: -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-*
 xterm*dynamicColors:      true
@@ -14,32 +14,20 @@ xterm*rightScrollBar:     true
 xterm*jumpScroll:         true
 xterm*multiScroll:        true
 xterm*toolBar:            false
-#*background: #262626
-#*foreground: #A8A8A8
+!*background: #262626
+!*foreground: #A8A8A8
 XTerm*metaSendsEscape: true
 
 urxvt*termName:            xterm-256color
 urxvt*scrollBar:        false
-URxvt*font:                 xft:Monaco for Powerline:regular:size=10
-URxvt*imFont:               xft:Monaco for Powerline:regular:size=10
-URxvt*boldFont:             xft:Monaco for Powerline:bold:size=10
-URxvt*italicFont:           xft:Monaco for Powerline:italic:size=10
-URxvt*boldItalicFont:       xft:Monaco for Powerline:bold:italic:size=10
 
-!URxvt*font:                 xft:Dingbats:pixelsize=7
-!URxvt*imFont:               xft:Dingbats:pixelsize=7
+URxvt.font: xft:terminus:pixelsize=6:antialias=false
 
-
-!urxvt.font:  xft:Nimbus:pixelsize=7:antialias=false
-!URxvt.font:     -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-*
-!URxvt.boldfont: -misc-tamsyn-bold-r-normal--12-87-100-100-c-60-*
-!URxvt.font: -misc-*-medium-r-normal--15-140-75-75-c-90-iso8859-1
-
-*.background: #232323
+urxvt.background: [85]#232323
 *.foreground: #A0A0A0
 
 ! Default shell
-URxvt*shell: /bin/zsh
+urxvt*shell: /bin/zsh
 
 ! Perl scripts
 URxvt.perl-lib: /usr/lib/urxvt/perl/
@@ -48,65 +36,38 @@ URxvt.perl-ext-common: default,clipboard-osc,vtwheel
 urxvt*matcher.button:    1
 URxvt*geometry:            85x25
 URxvt.urlLauncher: vimperator2
+!URxvt.depth: 32
 
-*.colorBD:    #CFCFCF
-*.colorUL:    #A0A0A0
-*.colorIT:    #686868
+!*.colorBD:    [85]#CFCFCF
+!*.colorUL:    #A0A0A0
+!*.colorIT:    #686868
 
-!black
-URxvt*color0:                                   #303030
-URxvt*color8:                                   #474747
-!red
-URxvt*color1:                                   #BF1E2D
-URxvt*color9:                                   #E7212A
-!green
-URxvt*color2:                                   #D7D7D7
-URxvt*color10:                                  #E6E6E6
-!yellow
-URxvt*color3:                                   #666666
-URxvt*color11:                                  #808080
-!blue
-URxvt*color4:                                   #FFFFFF
-URxvt*color12:                                  #ebebeb
-!magenta
-URxvt*color5:                                   #C3143B
-URxvt*color13:                                  #E82752
-!cyan
-URxvt*color6:                                   #D4D4D4
-URxvt*color14:                                  #EDEDED
-!white
-URxvt*color7:                                   #ebebeb
-URxvt*color15:                                  #cccccc
-
-
-!------------------------------------------------------------------------------
-! General Colors
-
-*foreground:                               #ebebeb
-*background:                               #151515
+![colors]
+foreground = #839496
+background = #09090d
+cursor = #839496
 
 !black
-*color0:                                   #303030
-*color8:                                   #474747
+color0 = #353540
+color8 = #545466
 !red
-*color1:                                   #BF1E2D
-*color9:                                   #E7212A
+color1 = #8c5760
+color9 = #b26f7a
 !green
-*color2:                                   #D7D7D7
-*color10:                                  #E6E6E6
+color2 = #7b8c58
+color10 = #9db270
 !yellow
-*color3:                                   #666666
-*color11:                                  #808080
+color3 = #8c6e43
+color11 = #b28c55
 !blue
-*color4:                                   #FFFFFF
-*color12:                                  #ebebeb
+color4 = #58698c
+color12 = #7086b2
 !magenta
-*color5:                                   #C3143B
-*color13:                                  #E82752
+color5 = #7b5e7d
+color13 = #9c77b2
 !cyan
-*color6:                                   #D4D4D4
-*color14:                                  #EDEDED
+color6 = #66808c
+color14 = #82a2b2
 !white
-*color7:                                   #ebebeb
-*color15:                                  #cccccc
-
+color7 = #8c8b8b
+color15 = #b8b8c8
