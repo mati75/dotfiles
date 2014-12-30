@@ -9,7 +9,7 @@ my Debian dots files
 ### installation
 
 ```sh
-$ git https://github.com/mati75/dotfiles.git
+$ git clone https://github.com/mati75/dotfiles.git
 ```
 and copy what you need
 
