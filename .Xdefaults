@@ -1,8 +1,5 @@
 XTerm*termName:  xterm-256color
 xterm*geometry:           80x25
-!!xterm*faceName:           xft:terminus:pixelsize=7:antialias=false
-!!xterm*font:              -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
-!xterm*font: -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-*
 xterm*dynamicColors:      true
 xterm*utf8:               2
 xterm*eightBitInput:      true
@@ -14,17 +11,25 @@ xterm*rightScrollBar:     true
 xterm*jumpScroll:         true
 xterm*multiScroll:        true
 xterm*toolBar:            false
-!*background: #262626
-!*foreground: #A8A8A8
 XTerm*metaSendsEscape: true
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+!URxvt*letterSpace: -1
+
+!URxvt*font:              xft:gohufont-uni:size=8
+
+URxvt.font: xft:gohufont:style=Normal:size=8
+URxvt.boldFont: xft:gohufont:style=Bold:size=8
 
 urxvt*termName:            xterm-256color
 urxvt*scrollBar:        false
-
-URxvt.font: xft:terminus:pixelsize=6:antialias=false
-
-urxvt.background: [85]#232323
-*.foreground: #A0A0A0
 
 ! Default shell
 urxvt*shell: /bin/zsh
@@ -35,39 +40,40 @@ URxvt.perl-ext-common: default,clipboard-osc,vtwheel
 
 urxvt*matcher.button:    1
 URxvt*geometry:            85x25
-URxvt.urlLauncher: vimperator2
 !URxvt.depth: 32
 
-!*.colorBD:    [85]#CFCFCF
-!*.colorUL:    #A0A0A0
-!*.colorIT:    #686868
+*background:    #151515
+*foreground:    #C7C79D
 
-![colors]
-foreground = #839496
-background = #09090d
-cursor = #839496
+! black
+*.color0:       #1F1E22
+*.color8:       #413F48
 
-!black
-color0 = #353540
-color8 = #545466
-!red
-color1 = #8c5760
-color9 = #b26f7a
-!green
-color2 = #7b8c58
-color10 = #9db270
-!yellow
-color3 = #8c6e43
-color11 = #b28c55
-!blue
-color4 = #58698c
-color12 = #7086b2
-!magenta
-color5 = #7b5e7d
-color13 = #9c77b2
-!cyan
-color6 = #66808c
-color14 = #82a2b2
-!white
-color7 = #8c8b8b
-color15 = #b8b8c8
+! red
+*.color1:       #783941
+*.color9:       #A64E59
+
+! green
+*.color2:       #536134
+*.color10:      #76884B
+
+! yellow
+*.color3:       #685C2A
+*.color11:      #A28F41
+
+! blue
+*.color4:       #363F5A
+*.color12:      #54608C
+
+! magenta
+*.color5:       #4A344D
+*.color13:      #69496C
+
+! cyan
+*.color6:       #2D4B4B
+*.color14:      #436E6F
+
+! white
+*.color7:       #A09BAB
+*.color15:      #C7C1D4
+
