@@ -4,7 +4,7 @@ my Debian dots files
 
 ### screenshot
 
-![screenshot](https://raw.githubusercontent.com/mati75/dotfiles/master/2014-12-26-204410_1024x600_scrot.png)
+![screenshot](https://raw.githubusercontent.com/mati75/dotfiles/master/2015-04-04-220307_1024x600_scrot.png)
 
 ### installation
 
